@@ -3,8 +3,8 @@ import { useCart } from './CartContext';
 import { useAuth } from './AuthContext';
 import { useRouter } from './Router';
 
-const DISCORD = 'https://discord.gg/jfDBYWq6Ax';
-const WEBHOOK = 'https://canary.discord.com/api/webhooks/1508879255868538991/E4V6PO2uQzgIvtApWfqKOjGbPK1j5OmI381KcGmHZsKXm8586gxW2Wu7oSGLkyfj5RED';
+const DISCORD = 'https://discord.gg/vfhMrPW2Qu';
+const WEBHOOK = 'https://canary.discord.com/api/webhooks/1509194874543411370/L49IDIEloBlAB_0R_T5trTiXKhDwECaOI_2XrfRvQTB47tOxeEcJmPTqNmgK4mksQsbi';
 
 export default function Cart() {
   const { items, isOpen, setOpen, remove, updateQty, clear, total, count, maxEta, orderSummary } = useCart();
